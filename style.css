@@ -1,0 +1,73 @@
+h1{text-align: center;
+    color: whitesmoke;
+}
+h3{text-align: center;
+    color: whitesmoke;
+}
+
+marquee{
+    color: aliceblue;
+    line-height: 5;
+}
+
+.full_page{
+    background-color: cornsilk;
+    background-image:url(./bg.jpg);
+    
+}
+.big_link_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    background-color: cornsilk;
+    background-image: url(./bg.jpg);
+}
+.link_container{
+    display: flex;
+    justify-content: space-between; /* Distributes the links evenly */
+    padding: 15px;
+    margin: 10px auto; /* Centers the box horizontally */
+    background-color: pink; /* Background color of the box */
+    border: 1px solid lightcoral; /* Border around the box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 1px 1px 1px grey; /* Subtle shadow for depth */
+    max-width: 50%; /* Limits the width of the box */
+    height: 200px;
+    width: 30%;
+    background-image: url(./book.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.left, .center, .right {
+    flex:1px;
+    padding: 100px; /* Space inside each link */
+    text-align: center; /* Centers text inside each link */
+    /*background-color: blue; /* Button background color */
+    color: beige; /* Button text color */
+    border-radius: 10px; /* Rounded corners for buttons */
+    text-decoration:none; /* Removes underline from links */
+    transition: background-color 0.2s ease; /* Smooth background color change on hover */
+    background-image: url(./box_bg.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+}
+
+.left:hover, .center:hover, .right:hover {
+    background-image: url(./book.webp);
+    /*background-color: violet; /* Darker shade on hover */
+}
+
+.footL{
+    color: azure;
+    float: left;
+}
+.footR{
+    color: azure;
+    float: right;
+}
